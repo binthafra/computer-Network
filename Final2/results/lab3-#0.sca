@@ -1,0 +1,50 @@
+version 2
+run lab3-0-20210628-14:26:03-12908
+attr configname lab3
+attr datetime 20210628-14:26:03
+attr experiment lab3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network final3net29
+attr processid 12908
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.start 5
+param **.stop 10
+
+scalar final3net29.router29[0] "#Forward no:" 0
+scalar final3net29.router29[0] "#Remaining Energy: " 4
+scalar final3net29.router29[1] "#Forward no:" 0
+scalar final3net29.router29[1] "#Remaining Energy: " 4
+scalar final3net29.router29[2] "#Forward no:" 0
+scalar final3net29.router29[2] "#Remaining Energy: " 4
+scalar final3net29.router29[3] "#Forward no:" 2
+scalar final3net29.router29[3] "#Remaining Energy: " 3
+scalar final3net29.router29[4] "#Forward no:" 0
+scalar final3net29.router29[4] "#Remaining Energy: " 4
+scalar final3net29.router29[5] "#Forward no:" 3
+scalar final3net29.router29[5] "#Remaining Energy: " 2.5
+scalar final3net29.router29[6] "#Forward no:" 0
+scalar final3net29.router29[6] "#Remaining Energy: " 4
+scalar final3net29.router29[7] "#Forward no:" 1
+scalar final3net29.router29[7] "#Remaining Energy: " 3.5
+scalar final3net29.router29[8] "#Forward no:" 0
+scalar final3net29.router29[8] "#Remaining Energy: " 4
+scalar final3net29.router29[9] "#Forward no:" 1
+scalar final3net29.router29[9] "#Remaining Energy: " 3.5
+scalar final3net29.router29[10] "#Forward no:" 0
+scalar final3net29.router29[10] "#Remaining Energy: " 4
+scalar final3net29.router29[11] "#Forward no:" 0
+scalar final3net29.router29[11] "#Remaining Energy: " 4
+scalar final3net29.router29[12] "#Forward no:" 0
+scalar final3net29.router29[12] "#Remaining Energy: " 4
+scalar final3net29.router29[13] "#Forward no:" 0
+scalar final3net29.router29[13] "#Remaining Energy: " 4
+scalar final3net29.router29[14] "#Forward no:" 0
+scalar final3net29.router29[14] "#Remaining Energy: " 4
+

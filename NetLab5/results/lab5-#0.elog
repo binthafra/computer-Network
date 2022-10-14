@@ -1,0 +1,199 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1286 rid lab5-0-20210430-22:05:21-11596 b 1000
+KF p -1 c "" s ""
+MC id 1 c omnetpp::cModule t lab5net29 n lab5net29 cm 1
+MS id 1 d ""
+MC id 2 c lab5node29 t lab5node29 pid 1 n router29[0]
+MS id 2 d ""
+MC id 3 c lab5node29 t lab5node29 pid 1 n router29[1]
+MS id 3 d ""
+MC id 4 c lab5node29 t lab5node29 pid 1 n router29[2]
+MS id 4 d ""
+MC id 5 c lab5node29 t lab5node29 pid 1 n router29[3]
+MS id 5 d ""
+MC id 6 c lab5node29 t lab5node29 pid 1 n router29[4]
+MS id 6 d ""
+MC id 7 c lab5node29 t lab5node29 pid 1 n router29[5]
+MS id 7 d ""
+MC id 8 c lab5node29 t lab5node29 pid 1 n router29[6]
+MS id 8 d ""
+MC id 9 c lab5node29 t lab5node29 pid 1 n router29[7]
+MS id 9 d ""
+MC id 10 c lab5node29 t lab5node29 pid 1 n router29[8]
+MS id 10 d ""
+MC id 11 c lab5node29 t lab5node29 pid 1 n router29[9]
+MS id 11 d ""
+MC id 12 c lab5node29 t lab5node29 pid 1 n router29[10]
+MS id 12 d ""
+MC id 13 c lab5node29 t lab5node29 pid 1 n router29[11]
+MS id 13 d ""
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CC sm 3 sg 1572864 dm 2 dg 1048576
+GC m 2 g 1048577 n gate$i i 1 o 0
+GC m 2 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572865 dm 4 dg 1048576
+CC sm 4 sg 1572864 dm 2 dg 1048577
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572865 dm 5 dg 1048576
+CC sm 5 sg 1572864 dm 3 dg 1048577
+GC m 2 g 1048578 n gate$i i 2 o 0
+GC m 2 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572866 dm 6 dg 1048576
+CC sm 6 sg 1572864 dm 2 dg 1048578
+GC m 5 g 1048577 n gate$i i 1 o 0
+GC m 5 g 1572865 n gate$o i 1 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572865 dm 7 dg 1048576
+CC sm 7 sg 1572864 dm 5 dg 1048577
+GC m 5 g 1048578 n gate$i i 2 o 0
+GC m 5 g 1572866 n gate$o i 2 o 1
+GC m 8 g 1048576 n gate$i i 0 o 0
+GC m 8 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572866 dm 8 dg 1048576
+CC sm 8 sg 1572864 dm 5 dg 1048578
+GC m 7 g 1048577 n gate$i i 1 o 0
+GC m 7 g 1572865 n gate$o i 1 o 1
+GC m 9 g 1048576 n gate$i i 0 o 0
+GC m 9 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572865 dm 9 dg 1048576
+CC sm 9 sg 1572864 dm 7 dg 1048577
+GC m 11 g 1048576 n gate$i i 0 o 0
+GC m 11 g 1572864 n gate$o i 0 o 1
+GC m 10 g 1048576 n gate$i i 0 o 0
+GC m 10 g 1572864 n gate$o i 0 o 1
+CC sm 11 sg 1572864 dm 10 dg 1048576
+CC sm 10 sg 1572864 dm 11 dg 1048576
+GC m 9 g 1048577 n gate$i i 1 o 0
+GC m 9 g 1572865 n gate$o i 1 o 1
+GC m 11 g 1048577 n gate$i i 1 o 0
+GC m 11 g 1572865 n gate$o i 1 o 1
+CC sm 9 sg 1572865 dm 11 dg 1048577
+CC sm 11 sg 1572865 dm 9 dg 1048577
+GC m 8 g 1048577 n gate$i i 1 o 0
+GC m 8 g 1572865 n gate$o i 1 o 1
+GC m 10 g 1048577 n gate$i i 1 o 0
+GC m 10 g 1572865 n gate$o i 1 o 1
+CC sm 8 sg 1572865 dm 10 dg 1048577
+CC sm 10 sg 1572865 dm 8 dg 1048577
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 12 g 1048576 n gate$i i 0 o 0
+GC m 12 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 12 dg 1048576
+CC sm 12 sg 1572864 dm 3 dg 1048578
+GC m 8 g 1048578 n gate$i i 2 o 0
+GC m 8 g 1572866 n gate$o i 2 o 1
+GC m 13 g 1048576 n gate$i i 0 o 0
+GC m 13 g 1572864 n gate$o i 0 o 1
+CC sm 8 sg 1572866 dm 13 dg 1048576
+CC sm 13 sg 1572864 dm 8 dg 1048578
+MB sm 1 tm 2 m initialize(0)
+ME
+MB sm 1 tm 3 m initialize(0)
+ME
+MB sm 1 tm 4 m initialize(0)
+ME
+MB sm 1 tm 5 m initialize(0)
+ME
+MB sm 1 tm 6 m initialize(0)
+ME
+MB sm 1 tm 7 m initialize(0)
+ME
+MB sm 1 tm 8 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe -1
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 0
+SH sm 8 sg 1572864
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 0 cid 1
+ME
+MB sm 1 tm 9 m initialize(0)
+ME
+MB sm 1 tm 10 m initialize(0)
+ME
+MB sm 1 tm 11 m initialize(0)
+ME
+MB sm 1 tm 12 m initialize(0)
+ME
+MB sm 1 tm 13 m initialize(0)
+ME
+- INFO:Insufficient EnergyInsufficient EnergyInsufficient EnergyInsufficient EnergyInsufficient EnergyInsufficient EnergyCount: 1Insufficient EnergyInsufficient EnergyInsufficient EnergyInsufficient EnergyInsufficient Energy
+
+E # 1 t 0 m 5 ce 0 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 1
+SH sm 5 sg 1572865
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 1 cid 1
+- INFO:Count: 1
+
+E # 2 t 0 m 7 ce 1 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 2
+SH sm 7 sg 1572865
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 2 cid 1
+- INFO:Count: 1
+
+E # 3 t 0 m 9 ce 2 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 3
+SH sm 9 sg 1572865
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 3 cid 1
+- INFO:Count: 1
+
+E # 4 t 0 m 11 ce 3 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 4
+SH sm 11 sg 1572864
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 4 cid 1
+- INFO:Count: 1
+
+E # 5 t 0 m 10 ce 4 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 5
+SH sm 10 sg 1572865
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 5 cid 1
+- INFO:Count: 1
+
+E # 6 t 0 m 8 ce 5 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 6
+SH sm 8 sg 1572866
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 6 cid 1
+- INFO:Count: 2
+
+E # 7 t 0 m 13 ce 6 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 7
+SH sm 13 sg 1572864
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 7 cid 1
+- INFO:Count: 1
+
+E # 8 t 0 m 8 ce 7 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 8
+SH sm 8 sg 1572864
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 8 cid 1
+- INFO:Count: 3
+
+E # 9 t 0 m 5 ce 8 msg 0
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 9
+SH sm 5 sg 1572864
+ES t 0
+CL id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 9 cid 1
+- INFO:Count: 2
+
+E # 10 t 0 m 3 ce 9 msg 0
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Afra C173229" pe 10
+- INFO:Reached or Insufficient Energy
+SE e 0 c 13 m "No more events, simulation completed -- at t=0s, event #10"
