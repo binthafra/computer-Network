@@ -1,0 +1,23 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1286 rid General-0-20210628-11:48:49-7180 b 1000
+KF p -1 c "" s ""
+MC id 1 c omnetpp::cModule t labnet n labnet cm 1
+MS id 1 d bgb=265,344
+MC id 2 c labfinalnode_29 t labfinalnode_29 pid 1 n tic
+GC m 2 g 0 n in o 0
+GC m 2 g 3 n out o 1
+MS id 2 d p=88,216
+MC id 3 c labfinalnode_29 t labfinalnode_29 pid 1 n toc
+GC m 3 g 0 n in o 0
+GC m 3 g 3 n out o 1
+MS id 3 d p=219.68333,125.53333
+MC id 4 c labfinalnode_29 t labfinalnode_29 pid 1 n toe
+GC m 4 g 0 n in o 0
+GC m 4 g 3 n out o 1
+MS id 4 d p=81,50
+MC id 5 c labfinalnode_29 t labfinalnode_29 pid 1 n toy
+GC m 5 g 0 n in o 0
+GC m 5 g 3 n out o 1
+MS id 5 d ""
+CC sm 2 sg 3 dm 3 dg 0
+CC sm 3 sg 3 dm 5 dg 0

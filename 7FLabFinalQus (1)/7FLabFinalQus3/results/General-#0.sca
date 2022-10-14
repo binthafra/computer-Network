@@ -1,0 +1,51 @@
+version 2
+run General-0-20210628-13:31:51-3892
+attr configname General
+attr datetime 20210628-13:31:51
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network labqus3net24
+attr processid 3892
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.start 3
+param **.stop 10
+param **.energy 4
+
+scalar labqus3net24.router24[0] "#Forward no:" 1
+scalar labqus3net24.router24[0] "#Remaining Energy:" 3.5
+scalar labqus3net24.router24[1] "#Forward no:" 1
+scalar labqus3net24.router24[1] "#Remaining Energy:" 3.5
+scalar labqus3net24.router24[2] "#Forward no:" 8
+scalar labqus3net24.router24[2] "#Remaining Energy:" 0
+scalar labqus3net24.router24[3] "#Forward no:" 6
+scalar labqus3net24.router24[3] "#Remaining Energy:" 1
+scalar labqus3net24.router24[4] "#Forward no:" 1
+scalar labqus3net24.router24[4] "#Remaining Energy:" 3.5
+scalar labqus3net24.router24[5] "#Forward no:" 6
+scalar labqus3net24.router24[5] "#Remaining Energy:" 1
+scalar labqus3net24.router24[6] "#Forward no:" 4
+scalar labqus3net24.router24[6] "#Remaining Energy:" 2
+scalar labqus3net24.router24[7] "#Forward no:" 5
+scalar labqus3net24.router24[7] "#Remaining Energy:" 1.5
+scalar labqus3net24.router24[8] "#Forward no:" 2
+scalar labqus3net24.router24[8] "#Remaining Energy:" 3
+scalar labqus3net24.router24[9] "#Forward no:" 1
+scalar labqus3net24.router24[9] "#Remaining Energy:" 3.5
+scalar labqus3net24.router24[10] "#Forward no:" 0
+scalar labqus3net24.router24[10] "#Remaining Energy:" 4
+scalar labqus3net24.router24[11] "#Forward no:" 0
+scalar labqus3net24.router24[11] "#Remaining Energy:" 4
+scalar labqus3net24.router24[12] "#Forward no:" 0
+scalar labqus3net24.router24[12] "#Remaining Energy:" 4
+scalar labqus3net24.router24[13] "#Forward no:" 0
+scalar labqus3net24.router24[13] "#Remaining Energy:" 4
+scalar labqus3net24.router24[14] "#Forward no:" 0
+scalar labqus3net24.router24[14] "#Remaining Energy:" 4
+
