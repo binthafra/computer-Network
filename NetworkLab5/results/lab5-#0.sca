@@ -1,0 +1,32 @@
+version 2
+run lab5-0-20210430-22:00:36-6444
+attr configname lab5
+attr datetime 20210430-22:00:36
+attr experiment lab5
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab5net29
+attr processid 6444
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.start 6
+param **.stop 1
+
+scalar lab5net29.router29[0] "#Forward no:" 0
+scalar lab5net29.router29[1] "#Forward no:" 0
+scalar lab5net29.router29[2] "#Forward no:" 0
+scalar lab5net29.router29[3] "#Forward no:" 2
+scalar lab5net29.router29[4] "#Forward no:" 0
+scalar lab5net29.router29[5] "#Forward no:" 1
+scalar lab5net29.router29[6] "#Forward no:" 3
+scalar lab5net29.router29[7] "#Forward no:" 1
+scalar lab5net29.router29[8] "#Forward no:" 1
+scalar lab5net29.router29[9] "#Forward no:" 1
+scalar lab5net29.router29[10] "#Forward no:" 0
+scalar lab5net29.router29[11] "#Forward no:" 1
+

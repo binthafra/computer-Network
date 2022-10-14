@@ -1,0 +1,45 @@
+version 2
+run lab4-0-20210415-20:54:39-7936
+attr configname lab4
+attr datetime 20210415-20:54:39
+attr experiment lab4
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab4net29
+attr processid 7936
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.start 6
+param **.stop 1
+param **.energy 0.7
+
+scalar lab4net29.router07[0] "#Forward no:" 0
+scalar lab4net29.router07[0] "#Remaining Energy: " 0.7
+scalar lab4net29.router07[1] "#Forward no:" 0
+scalar lab4net29.router07[1] "#Remaining Energy: " 0.7
+scalar lab4net29.router07[2] "#Forward no:" 0
+scalar lab4net29.router07[2] "#Remaining Energy: " 0.7
+scalar lab4net29.router07[3] "#Forward no:" 2
+scalar lab4net29.router07[3] "#Remaining Energy: " 0.3
+scalar lab4net29.router07[4] "#Forward no:" 0
+scalar lab4net29.router07[4] "#Remaining Energy: " 0.7
+scalar lab4net29.router07[5] "#Forward no:" 2
+scalar lab4net29.router07[5] "#Remaining Energy: " 0.3
+scalar lab4net29.router07[6] "#Forward no:" 1
+scalar lab4net29.router07[6] "#Remaining Energy: " 0.5
+scalar lab4net29.router07[7] "#Forward no:" 1
+scalar lab4net29.router07[7] "#Remaining Energy: " 0.5
+scalar lab4net29.router07[8] "#Forward no:" 1
+scalar lab4net29.router07[8] "#Remaining Energy: " 0.5
+scalar lab4net29.router07[9] "#Forward no:" 3
+scalar lab4net29.router07[9] "#Remaining Energy: " 0.1
+scalar lab4net29.router07[10] "#Forward no:" 2
+scalar lab4net29.router07[10] "#Remaining Energy: " 0.3
+scalar lab4net29.router07[11] "#Forward no:" 0
+scalar lab4net29.router07[11] "#Remaining Energy: " 0.7
+
